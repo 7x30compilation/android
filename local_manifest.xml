@@ -2,14 +2,14 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_bionic" />
-  <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="CyanogenMod/android_system_core" />
+  <!--remove-project name="CyanogenMod/android_bionic" -->
+  <!--remove-project name="CyanogenMod/android_build" -->
+  <!--remove-project name="CyanogenMod/android_packages_apps_CMUpdater" -->
+  <!--remove-project name="CyanogenMod/android_system_core" -->
 
   <!-- OpenDesireProject -->
-  <project path="bionic" name="OpenDesireProject/android_bionic" revision="cm-12.1" />
-  <project path="build" name="OpenDesireProject/android_build" revision="cm-12.1">
+  <!--project path="bionic" name="OpenDesireProject/android_bionic" revision="cm-12.1" -->
+  <!--project path="build" name="OpenDesireProject/android_build" revision="cm-12.1"-->
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" revision="cm-12.1-legacy-msm7x30" />
